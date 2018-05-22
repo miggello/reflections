@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 The hidden git file is created that contains the information git uses to operate on this repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is a place to track what work will be done with the next commit. It makes it easier to group commits logically.
