@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+Having a remote repository is useful in several different ways. First if you are working from multiple computers, it makes it easy to push or pull code to contribute on the fly. Second it makes it easier to share you work, either with collaborators or with other interested parties such as employers screening applicants.
