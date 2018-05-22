@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+The hidden git file is created that contains the information git uses to operate on this repository.
