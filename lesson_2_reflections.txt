@@ -3,3 +3,18 @@ The hidden git file is created that contains the information git uses to operate
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is a place to track what work will be done with the next commit. It makes it easier to group commits logically.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Files can be selectively added to the staging area. This creates the possibility of adding different types of changes to separate commits by choosing which ones are included on each commit.
+
+What are some situations when branches would be helpful in keeping your history organized?
+Branch names are much easier to work with than commit identifiers, and more descriptive of the work that was done in them. They also do not tie up the master branch where other changes can be made prior to merging. Branches allow you to keep your work history more organized by creating more workspaces for specific work.
+
+How do the diagrams help you visualize the branch structure?
+While the log --graph --oneline function is nice, it is not as clear what is going on as creating a diagram of the branch structure. The diagrams make it clear how the commits in different branches are related ( or not related) to one another.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is a new commit on the master branch containing the changes from the child branch that could be merged. It is represented the way it is because the contents of both branches are becoming one.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+The main pro is that it can save time by merging changes in cases where it can do so with reasonably low chances of doing something wrong. The downside is that there is a possibility that incompatible changes will be merged, this could lead to bugs or crashes if it is not caught.
