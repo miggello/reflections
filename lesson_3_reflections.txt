@@ -3,3 +3,6 @@ Having a remote repository is useful in several different ways. First if you are
 
 Why might you want to always pull changes manually rather than having git automatically stay up-to-date with your remote repository.
 The primary functionality of github is to store your git repositories in a location where they can be accessed from different computers. In many cases a repository may already exist that contains changes that have not yet been pushed to github. Because of the potential for this it is important for git users to control how and when they pull from a repository to avoid losing their work.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks describe a github specific function where you effectively clone another user's repository while giving them credit for their work. Cloning occurs both in git and github, and refers to copying the contents of one repository into another, this is different from forking because no link is created to the source repository. Finally branches are separate work paths within the same repository. They are frequently used to work on features, bugfixes, or other similar endeavors to later merge into the master branch after testing.
