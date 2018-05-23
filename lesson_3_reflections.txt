@@ -9,3 +9,6 @@ Forks describe a github specific function where you effectively clone another us
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Primarily that it allows you to see what changes you have made since the last time you synced with git-hub by tracking the last known commit where you were synced.
+
+How would you collaborate without using Git or Github? What would be easier, and what would be harder?
+I would most likely use a setup where people check out certain files on a project to work on at any given time, and are then required to check those files back in periodically at which timestamped backups are created. It would be easier to learn to use than git/github, but it would lack much of the functionality and the ability for multiple users to work on the same file.
