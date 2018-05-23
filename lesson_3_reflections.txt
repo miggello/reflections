@@ -12,3 +12,6 @@ Primarily that it allows you to see what changes you have made since the last ti
 
 How would you collaborate without using Git or Github? What would be easier, and what would be harder?
 I would most likely use a setup where people check out certain files on a project to work on at any given time, and are then required to check those files back in periodically at which timestamped backups are created. It would be easier to learn to use than git/github, but it would lack much of the functionality and the ability for multiple users to work on the same file.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+It is easier to work directly in master, but it is not practical in a multi-user environment where changes to master affect the code that multiple people are working with. Branches allow teams to work on the same project without stepping on one another since everyone can see and review pull requests before updating master.
