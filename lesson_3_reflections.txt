@@ -6,3 +6,6 @@ The primary functionality of github is to store your git repositories in a locat
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks describe a github specific function where you effectively clone another user's repository while giving them credit for their work. Cloning occurs both in git and github, and refers to copying the contents of one repository into another, this is different from forking because no link is created to the source repository. Finally branches are separate work paths within the same repository. They are frequently used to work on features, bugfixes, or other similar endeavors to later merge into the master branch after testing.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Primarily that it allows you to see what changes you have made since the last time you synced with git-hub by tracking the last known commit where you were synced.
